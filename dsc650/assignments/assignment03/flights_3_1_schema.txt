@@ -1,0 +1,58 @@
+Schema = 
+
+{
+  airline:
+	{
+	airline_id
+	name
+	alias
+	iata
+	icao
+	callsign
+	country
+	active
+	}
+
+  src_airport:
+	{
+	airport_id
+	name
+	city
+	country
+	iata
+	icao	
+	latitude
+	longitude
+	altitude
+	timezone
+	dst
+	tz_id
+	type	
+	source
+	}
+
+  dst_airport:
+	{	
+	airport_id
+	name
+	city
+	country
+	iata
+	icao	
+	latitude
+	longitude
+	altitude
+	timezone
+	dst
+	tz_id
+	type	
+	source
+	}
+
+  codeshare
+  equipment
+
+}
+	
+
+	
